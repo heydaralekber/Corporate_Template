@@ -1,5 +1,5 @@
 body{
-	margin: 0;
+margin: 0;
 }
 
 header .top {
@@ -39,9 +39,69 @@ margin-left: 0;
 }
 
 .glyphicon {
-	color: #d9232d;
+color: #d9232d;
 }
 
 .carousel-indicators .active:hover {
-	background-color: #d9232d;	
+background-color: #d9232d;	
 }
+
+#search {
+float: right;
+margin-top: 9px;
+width: 250px;
+
+}
+
+.search {
+padding: 5px 0;
+width: 277px;
+height: 36px;
+position: relative;
+left: 10px;
+float: left;
+line-height: 22px;
+font-family: 'Lora', serif;
+
+}
+
+.search input {
+position: absolute;
+width: 0px;
+outline: none;
+background: #fff;
+margin-left: 217px;
+-webkit-transition: all 0.7s ease-in-out;
+-moz-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;
+transition: all 0.7s ease-in-out;
+height: 36px;
+line-height: 18px;
+padding: 2px 41px 2px 10px; 
+border-radius:2px;
+font-size: 14px;
+}
+
+.search:hover input, .search input:focus {
+width: 277px;
+margin-left: 0px;
+}
+
+.btn {
+height: 36px;
+position: absolute;
+right: 0;
+top: 5px;
+font-weight: bold;
+border-radius:2.5px;
+font-size: 14px;
+background-color: #d9232d;
+color: #fff;    
+}
+
+.btn:hover {
+background-color: #656565;
+color: #fff;
+transition: all 0.4s ease-in;
+}
+
