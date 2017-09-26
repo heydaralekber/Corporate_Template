@@ -1,4 +1,4 @@
-﻿body{
+body{
 	margin: 0;
 }
 
@@ -36,4 +36,12 @@ background: white;
 .navbar-brand img{
 margin-top: 5%;
 margin-left: 0;
+}
+
+.glyphicon {
+	color: #d9232d;
+}
+
+.carousel-indicators .active:hover {
+	background-color: #d9232d;	
 }
