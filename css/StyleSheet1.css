@@ -42,8 +42,22 @@ margin-left: 0;
 color: #d9232d;
 }
 
-.carousel-indicators .active:hover {
+.carousel-indicators .active {
 background-color: #d9232d;	
+}
+
+.carousel-indicators li {
+border-color: #656565;	
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -35px;
+    color: #656565;
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -35px;
+    color: #656565;
 }
 
 #search {
@@ -212,4 +226,64 @@ margin-right: 4%;
 line-height: 1.33;
 border-radius: 6px;
 font-family: 'Playfair Display', serif;
+}
+
+#content {
+	margin-top: 4%;
+}
+
+.text-center h2 {
+font-weight: 900;
+line-height: 1.1em;
+font-family: 'Playfair Display', serif;
+color: #656565;
+}
+
+.text-center p {
+margin-top: 2%;
+font-family: 'Playfair Display', serif;
+color: #656565;
+}
+
+.highlight {
+background-color: #d9232d;
+color: #fff;
+padding: 0 8px;
+border-radius: 2px;
+}
+
+.progress {
+height: 30px;
+margin-bottom: 20px;
+}
+
+.progress-bar {
+    line-height: 30px;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.icon i {
+color: #656565;
+}
+
+.box .icon i:hover {
+ color: #d9232d;
+ transition: 0.4s;
+}
+
+#content {
+    width: 100%;
+    height: 2747px;
+    background: #fff;
+    
+}
+
+#parallax1 {
+    background-image: url(../img/parallax/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    z-index: 120;
 }
