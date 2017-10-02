@@ -311,3 +311,51 @@ color : white;
     font-family: 'Oswald', sans-serif;
 }
 
+
+
+.testimonialslide ul li blockquote {
+    border-left: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Playfair Display', sans-serif;    
+    padding-left: 0;
+    line-height: 1.6em;
+    border: none;
+}
+
+.testimonialslide h4 {
+ font-family: 'Playfair Display', sans-serif;
+}
+
+.flex-control-paging li a.flex-active {
+    background: #000;
+    background: rgba(0,0,0,0.9);
+    cursor: default;
+}
+
+
+#content img {
+    margin-bottom: 30px;
+    margin: 0 15px 15px 0;
+    float: left;
+}
+
+.tab-content > .tab-pane {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-top-color: transparent;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    color: #d9232d;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.tab-content p {
+    font-family: 'Playfair Display', sans-serif; 
+
+}
