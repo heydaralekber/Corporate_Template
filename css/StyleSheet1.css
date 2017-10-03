@@ -359,3 +359,24 @@ color : white;
     font-family: 'Playfair Display', sans-serif; 
 
 }
+
+.cbp-l-caption-buttonLeft, .cbp-l-caption-buttonRight, .cbp-l-filters-button .cbp-filter-counter {
+    background-color: #d9232d;
+}
+
+
+.client {
+    margin-top: 6%; 
+    border-top: 0.6px solid; 
+    border-color: #f4f6f7;
+}
+
+.client img {    
+    opacity: 0.7;
+
+}
+
+.client img:hover {
+    opacity: 1;
+    transition: 0.2s;
+}
